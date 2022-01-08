@@ -1,0 +1,42 @@
+BLE定位http接口格式：
+端口：未定
+method: post
+headers:'Content-Type': 'application/json'
+body:
+##发送的Request格式
+###[baecon_json, compass_json,加速器json，设备方向json，上次位置json,卡尔曼滤波参数json]
+###或者[baecon_json, compass_json,加速器json，设备方向json，last_loc,last_kalman]
+###上次位置json的格式：{"res":[x,y],"timestamp":1632981363.257,"type":"last_loc"}
+###卡尔曼滤波参数json的格式：{"res":[evalkk,Pkk1,Q,R],"timestamp":1632981363.257,"type":"last_kalman"}
+示例json:
+[{"res":[["A99BC9DF-84AE-418C-BF7B-2DD963FE109F",59999,51726,-56,4.084238652674522]],"timestamp":1632981365.533,"type":"ibeacon"},
+{"res":89.51130676269531,"timestamp":1632981363.257,"type":"compass"}，
+{"res":[0.0065765380859375,-0.39385986328125,-0.928497314453125], 'timestamp': 1632981363.238, 'type': 'accelerometer'},
+{"res":[26.416277111389014,-2.9147136392800035,-1.755306766668275],"timestamp":1632981365.528,"type":"deviceMotion"},
+{'res': [[0, 0], [[0], [0]], 200, 200], 'timestamps': 1638854465.239617, 'type': 'last_kalman'},
+{'res': [[0, 0]], 'timestamps': 1638854465.239617, 'type': 'last_loc'}]
+
+1、该json将上次位置、卡尔曼滤波参数也加入在信标数据中；
+2、暂未实现楼层识别，所有的地图我存在服务器上，实际场地需要更换地图；
+3、先调试及收集实际场地的信标数据，经过分析后我再将三点定位与传感器融合定位的代码也放进去；
+
+
+
+response数据格式：
+###location  当前估计位置，这个位置需要作为参数传给接口作下一次预测的参考
+###evalkk 当前卡尔曼估计值
+###Pkk1 当前卡尔曼协方差估计值
+###Q R 观察与状态数据、协方差
+res =  {
+        "location":{
+        "x": 0,
+        "y": 0},
+        "kalmanFactor":{
+        "evalkk":[0,0],
+        "Pkk1":[[0,0],[0,0]],
+        "Q":0,
+        "R":0,
+        },
+        "msg":"",   #错误信息
+        "status":"",#成功则为success
+}

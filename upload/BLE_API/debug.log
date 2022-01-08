@@ -1,0 +1,923 @@
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2215
+Not Found: /
+"GET / HTTP/1.1" 404 2164
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2215
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 11, in updateMap
+    template = loader.get_template('index.html')
+NameError: name 'loader' is not defined
+"GET /API/updateMap/ HTTP/1.1" 500 69636
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 12, in updateMap
+    template = loader.get_template('index.html')
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET /API/updateMap/ HTTP/1.1" 500 75731
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 13, in updateMap
+    return HttpResponse(template.render(request))
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than WSGIRequest.
+"GET /API/updateMap/ HTTP/1.1" 500 77890
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Not Found: /upload.html
+"POST /upload.html HTTP/1.1" 404 2216
+Internal Server Error: /API/updateMap
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/API/updateMap/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /API/updateMap HTTP/1.1" 500 73867
+Internal Server Error: /API/updateMap
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/API/updateMap/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /API/updateMap HTTP/1.1" 500 73867
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 24, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 73037
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 24, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 73037
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 19, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 35, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75713
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 19, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 35, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75713
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 19, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 35, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75712
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 25, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 72899
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 25, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 72899
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 19, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 35, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75713
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 20, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 36, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75669
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 17, in updateMap
+    print(request.data)
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+"POST /API/updateMap/ HTTP/1.1" 500 72098
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 20, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 36, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75700
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 37, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 75685
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 17, in updateMap
+    for filename, file in request.FILES.iteritems():
+AttributeError: 'MultiValueDict' object has no attribute 'iteritems'
+"POST /API/updateMap/ HTTP/1.1" 500 72154
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 17, in updateMap
+    for filename, file in request.FILES.iteritems():
+AttributeError: 'MultiValueDict' object has no attribute 'iteritems'
+"POST /API/updateMap/ HTTP/1.1" 500 72151
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 23, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 39, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 76108
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 23, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 39, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 76111
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 23, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 39, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 76130
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 23, in updateMap
+    handle_uploaded_file(mapID,file)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 39, in handle_uploaded_file
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+"POST /API/updateMap/ HTTP/1.1" 500 76137
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 29, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 73462
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 30, in updateMap
+    f = open(file_path, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'static\\upload\\B23测试车场蓝牙坐标(5米间隔)(4).txt'
+"POST /API/updateMap/ HTTP/1.1" 500 73482
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    print(ContentFile(obj.read()).decode("utf-8"))
+AttributeError: 'ContentFile' object has no attribute 'decode'
+"POST /API/updateMap/ HTTP/1.1" 500 72255
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 20, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 29, in handle_uploaded_file
+    a = a+ chunk
+TypeError: can only concatenate str (not "bytes") to str
+"POST /API/updateMap/ HTTP/1.1" 500 76975
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69428
+Internal Server Error: /admin/API/map/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: API_map.beaconID
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\contrib\admin\options.py", line 1815, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: API_map.beaconID
+"GET /admin/API/map/ HTTP/1.1" 500 158241
+Not Found: /
+"GET / HTTP/1.1" 404 2164
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 40, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = time.time())
+NameError: name 'models' is not defined
+"POST /API/updateMap/ HTTP/1.1" 500 80983
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 40, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = time.time())
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1228, in to_python
+    parsed = parse_date(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+"POST /API/updateMap/ HTTP/1.1" 500 164225
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 40, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = time.time())
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1228, in to_python
+    parsed = parse_date(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+"POST /API/updateMap/ HTTP/1.1" 500 164238
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 40, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = time.time())
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1228, in to_python
+    parsed = parse_date(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\utils\dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+"POST /API/updateMap/ HTTP/1.1" 500 164200
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 40, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = today.strftime("%Y-%d-%b"))
+NameError: name 'today' is not defined
+"POST /API/updateMap/ HTTP/1.1" 500 81044
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 41, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = today.strftime("%Y-%d-%b"))
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1238, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2021-21-Dec” value has an invalid date format. It must be in YYYY-MM-DD format.']
+"POST /API/updateMap/ HTTP/1.1" 500 161371
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 41, in handle_uploaded_file
+    map = models.Map.objects.create(mapID=mapID, beaconID=beaconID, x=x, y=y,load_date = today.strftime("YYYY-MM-DD"))
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1238, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“YYYY-MM-DD” value has an invalid date format. It must be in YYYY-MM-DD format.']
+"POST /API/updateMap/ HTTP/1.1" 500 161364
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69431
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69431
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 41, in handle_uploaded_file
+    if  models.Author.objects.filter(mapID=mapID, beaconID=beaconID, x=x, y=y).exists():
+AttributeError: module 'API.models' has no attribute 'Author'
+"POST /API/updateMap/ HTTP/1.1" 500 81757
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69431
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view API.updateMap.updateMap didn't return an HttpResponse object. It returned None instead.
+"POST /API/updateMap/ HTTP/1.1" 500 69431
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 21, in updateMap
+    handle_uploaded_file(mapID,ContentFile(obj.read()))
+AttributeError: 'NoneType' object has no attribute 'read'
+"POST /API/updateMap/ HTTP/1.1" 500 72144
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 22, in updateMap
+    return render(request,'admin/map')
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/map
+"POST /API/updateMap/ HTTP/1.1" 500 86875
+Internal Server Error: /API/updateMap/
+Traceback (most recent call last):
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\working home\Bluetooth_localization\BLE\upload\BLE_API\API\updateMap.py", line 22, in updateMap
+    return render(request,'admin/map/')
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\sunge\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/map/
+"POST /API/updateMap/ HTTP/1.1" 500 86885

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>上传地图</title>
+  </head>
+  <body>
+<form method="POST" action="http://127.0.0.1:8000/API/updateMap/" enctype="multipart/form-data">
+    <div>
+	<label >地图ID:  
+	<input type="text" name="mapID" />
+	</label>
+	</div>
+	<div>
+	<label>文件路径
+	<input type="text" name="filepath" />
+	</label>	
+    <label for="fileinp">
+    <span id="text">请上传地图</span>
+    <input type="file" id="fileinp" name = 'file'>
+</label>
+	</div>
+	<div>
+    <input type="submit" value="提交" />
+	</div>
+</form>
+ 
+<div>
+{% for item in img_list %}
+<img style="height: 200px;width: 200px;" src="/{{ item.path }}" />
+{% endfor %}
+</div>
+  </body>
+  <script>
+  const input = document.querySelector("#fileinp");
+  const filepath = document.querySelector('input[name="filepath"]');
+  input.style.opacity = 0;
+  input.addEventListener('change', updateImageDisplay);
+  function updateImageDisplay() {
+  const curFile = input.files;
+  if(curFile.length == 0) {
+    filepath.value = '0'    
+  } else {
+		filepath.value = curFile[0].name
+      }
+   }
+
+  </script>
+</html>
