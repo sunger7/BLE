@@ -1,7 +1,7 @@
 # BLE
 低功耗蓝牙信标定位算法
 实现三点定位、多点加权定位、多点梯度下降法定位、航迹导航等。<br>
-[BLE](https://github.com/sunger7/BLE/tree/master/upload/BLE_API)算法在Diango框架下以Server/Brower方式实现。启动方式设参考Django文档。<br>
+[BLE](https://github.com/sunger7/BLE/tree/master/upload/BLE_API)算法在Diango框架下以Server/Brower方式实现。启动方式请参考Django文档。<br>
 服务网址为<url = "http://127.0.0.1:8000/API/localization/">
 <br>
 接口格式为：<br>
